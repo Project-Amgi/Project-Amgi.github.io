@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(38, 41, 51);
+    margin: 0;
+    font-family: 'AbeeZee';
+}
+
+#welcome{
+    background-image: linear-gradient(to bottom, crimson 10%, rgb(255, 88, 88) 90%);
+}
+
+h2{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#title{
+    text-align: center;
+    font-family: 'AbeeZee';
+    font-size: 3em;
+    background-image: linear-gradient(to bottom, crimson 10%, rgb(255, 88, 88) 90%);
+    
+}
+h1{
+    margin: 0;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    
+    overflow: hidden;
+    padding: 0;
+    margin-top: 0;
+}
+.navbar li{
+    text-align: center;
+    float: left;
+    width:33.333%;
+}
+.navbar li button:hover{
+    background-image: linear-gradient(to top, rgb(177, 16, 48) 10%, rgb(218, 75, 75) 90%);
+}
+.navbar li button{
+    display: block;
+    background-image: linear-gradient(to top, crimson 10%, rgb(255, 88, 88) 90%);
+    border:0;
+    width: 100%;
+    padding: 0;
+    font-family: 'AbeeZee';
+    font-size: 2em;
+    color: white;
+}
+#current button{
+    border-bottom: 3px solid rgb(38, 41, 51);
+    border-left: 3px solid rgb(38, 41, 51);
+    border-right: 3px solid rgb(38, 41, 51);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+@media screen and (max-width: 600px){
+    #title{
+        font-size: 2em;
+    }
+}
