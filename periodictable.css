@@ -1,0 +1,59 @@
+.periodictable {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(7, 100px);
+    gap: 2px; 
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: rgb(14, 15, 20);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    outline: none; 
+}
+
+.group-5 {
+    border-color: cyan;
+    color: cyan;
+}
+
+.group-6 {
+    border-color: rgb(0, 81, 255)  ;
+    color: rgb(0, 81, 255) ;
+}
+
+.element .pornographic-no {
+    font-size: 12px;
+}
+
+.element .symbol {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.element .name {
+    font-size: 12px;
+    opacity: 0.7;
+}
